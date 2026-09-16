@@ -1,0 +1,23 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Caché de Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Artefactos de Jupyter
+.ipynb_checkpoints/
+
+# Datos pesados (se conserva la estructura de carpetas)
+data/01_raw/*
+data/02_intermediate/*
+data/03_processed/*
+!data/01_raw/.gitkeep
+!data/02_intermediate/.gitkeep
+!data/03_processed/.gitkeep
+
+# Archivos de sistema
+.DS_Store
